@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Criativo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Seja bem-vindo(a) ao meu portfólio!</h1>
+    <p>Transformo suas ideias em designs únicos: convites, páginas personalizadas, folhetos e muito mais. Vamos criar juntos? Me chama!</p>
+  </header>
+
+  <main>
+    <section id="catalogo-opcoes">
+      <h2>O que eu faço</h2>
+      <div class="opcoes">
+        <button onclick="mostrarCatalogo('convites')">Convites Interativos</button>
+        <button onclick="mostrarCatalogo('simples')">Convites Simples</button>
+        <button onclick="mostrarCatalogo('site')">Sites Personalizados</button>
+        <button onclick="mostrarCatalogo('folhetos')">Folhetos</button>
+        <button onclick="mostrarCatalogo('publicacoes')">Publicações para Redes</button>
+      </div>
+    </section>
+
+    <section id="catalogo" class="escondido">
+      <h2 id="tituloCatalogo">Catálogo</h2>
+      <input type="text" id="busca" placeholder="Buscar projeto..." onkeyup="filtrarProjetos()">
+      <div id="listaProjetos"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Entre em contato!</p>
+    <ul>
+      <li><a href="https://github.com/Puffl1y" target="_blank">GitHub</a></li>
+      <li><a href="mailto:puffliy.m@gmail.com">Email</a></li>
+      <li><a href="https://t.me/puffliy" target="_blank">Telegram</a></li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

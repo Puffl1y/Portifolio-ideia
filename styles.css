@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #4ea8f1;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+#catalogo-opcoes {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.opcoes button {
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #4ea8f1;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.opcoes button:hover {
+  background-color: #48f57c;
+}
+
+#catalogo {
+  margin-top: 3rem;
+}
+
+#busca {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#listaProjetos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.projeto {
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: calc(33% - 2rem);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projeto img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+footer a {
+  color: #ffb6c1;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.escondido {
+  display: none;
+}
