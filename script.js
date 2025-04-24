@@ -14,19 +14,14 @@ const projetos = {
       { nome: "Convite Masculino Azul", imagem: "convites/masc-azul.jpg" },
       { nome: "Convite Feminino Verde", imagem: "convites/fem-verde.jpg" }
     ],
-    site: [
-      { nome: "Site Dia dos Namorados", imagem: "site/Dia dos namorados.jpg" },
-      { nome: "Site de Teste de conhecimento", imagem: "site/teste.jpg" },
-      { nome: "Site de catálogo", imagem: "site/catalogoEevee.jpg" },
-    ],
     folhetos: [
       { nome: "Folheto 1", imagem: "convites/folder-1.jpg" },
       { nome: "Folheto 2", imagem: "convites/folder-2.jpg" },
       { nome: "Folheto 3", imagem: "convites/folder-3.jpg" }
-    ],
-    publicacoes: [
-      { nome: "Post Instagram 1", imagem: "img/post1.jpg" }
     ]
+    // publicacoes: [
+    //  { nome: "Post Instagram 1", imagem: "img/post1.jpg" }
+    // ]
   };
   
   let projetosAtuais = [];

@@ -1,9 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Kaushan+Script&display=swap');
+
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Comic Relief", system-ui;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
+}
+
+.titulo {
+  font-family: "Kaushan Script", cursive;
 }
 
 header {
